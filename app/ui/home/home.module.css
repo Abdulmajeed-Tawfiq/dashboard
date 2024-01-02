@@ -38,6 +38,7 @@
 .note {
   text-align: center;
   line-height: 30px;
+  margin-top: 50px;
 }
 .note > p > span {
   font-weight: bold;
