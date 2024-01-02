@@ -34,3 +34,8 @@
   background-color: #181a1b;
   transition: 0.3s ease-in-out;
 }
+
+.footer {
+  position: absolute;
+  bottom: 5%;
+}

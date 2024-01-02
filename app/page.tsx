@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./ui/home/home.module.css";
+import Footer from "./ui/dashboard/footer/footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,9 @@ export default function Home() {
           Go to Dashboeard
         </Link>
       </nav>
+      <footer className={styles.footer}>
+        <Footer />
+      </footer>
     </div>
   );
 }
