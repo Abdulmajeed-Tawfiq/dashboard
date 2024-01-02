@@ -1,0 +1,518 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "securepassword1",
+      "phone": "+1-555-123-4567",
+      "address": "123 Main St, Cityville, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "strongpass123",
+      "phone": "+1-555-234-5678",
+      "address": "456 Oak St, Townsville, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-02T09:15:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Robert Johnson",
+      "email": "robert.j@example.com",
+      "password": "pass123word",
+      "phone": "+1-555-345-6789",
+      "address": "789 Pine St, Villagetown, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-03T10:30:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily.d@example.com",
+      "password": "securepass456",
+      "phone": "+1-555-456-7890",
+      "address": "101 Maple St, Hamletville, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-04T11:45:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "password": "brownpass789",
+      "phone": "+1-555-567-8901",
+      "address": "202 Birch St, Boroughburg, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-05T13:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Olivia White",
+      "email": "olivia.white@example.com",
+      "password": "whitepass012",
+      "phone": "+1-555-678-9012",
+      "address": "303 Cedar St, Citytown, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-06T14:15:00Z"
+    },
+    {
+      "id": 7,
+      "name": "William Taylor",
+      "email": "william.taylor@example.com",
+      "password": "taylorpass345",
+      "phone": "+1-555-789-0123",
+      "address": "404 Elm St, Villageville, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-07T15:30:00Z"
+    },
+    {
+      "id": 8,
+      "name": "Sophia Miller",
+      "email": "sophia.m@example.com",
+      "password": "millerpass678",
+      "phone": "+1-555-890-1234",
+      "address": "505 Walnut St, Townburg, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-08T16:45:00Z"
+    },
+    {
+      "id": 9,
+      "name": "James Anderson",
+      "email": "james.a@example.com",
+      "password": "andersonpass901",
+      "phone": "+1-555-901-2345",
+      "address": "606 Oak St, Cityville, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-09T18:00:00Z"
+    },
+    {
+      "id": 10,
+      "name": "Ava Wilson",
+      "email": "ava.wilson@example.com",
+      "password": "wilsonpass234",
+      "phone": "+1-555-012-3456",
+      "address": "707 Pine St, Villagetown, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-10T19:15:00Z"
+    },
+    {
+      "id": 11,
+      "name": "Ethan Martinez",
+      "email": "ethan.m@example.com",
+      "password": "martinezpass567",
+      "phone": "+1-555-123-4567",
+      "address": "808 Maple St, Hamletville, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-11T20:30:00Z"
+    },
+    {
+      "id": 12,
+      "name": "Mia Davis",
+      "email": "mia.d@example.com",
+      "password": "davispass890",
+      "phone": "+1-555-234-5678",
+      "address": "909 Birch St, Boroughburg, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-12T21:45:00Z"
+    },
+    {
+      "id": 13,
+      "name": "Logan Thomas",
+      "email": "logan.t@example.com",
+      "password": "thomaspass123",
+      "phone": "+1-555-345-6789",
+      "address": "1010 Cedar St, Citytown, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-13T23:00:00Z"
+    },
+    {
+      "id": 14,
+      "name": "Amelia Harris",
+      "email": "amelia.h@example.com",
+      "password": "harrispass456",
+      "phone": "+1-555-456-7890",
+      "address": "1111 Elm St, Villageville, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-14T00:15:00Z"
+    },
+    {
+      "id": 15,
+      "name": "Benjamin Clark",
+      "email": "benjamin.c@example.com",
+      "password": "clarkpass789",
+      "phone": "+1-555-567-8901",
+      "address": "1212 Walnut St, Townburg, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-15T01:30:00Z"
+    },
+    {
+      "id": 16,
+      "name": "Harper Lewis",
+      "email": "harper.l@example.com",
+      "password": "lewisspace012",
+      "phone": "+1-555-678-9012",
+      "address": "1313 Oak St, Cityville, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-16T02:45:00Z"
+    },
+    {
+      "id": 17,
+      "name": "Jackson Turner",
+      "email": "jackson.t@example.com",
+      "password": "turnerpass345",
+      "phone": "+1-555-789-0123",
+      "address": "1414 Pine St, Villagetown, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-17T04:00:00Z"
+    },
+    {
+      "id": 18,
+      "name": "Luna Hall",
+      "email": "luna.h@example.com",
+      "password": "hallpass678",
+      "phone": "+1-555-890-1234",
+      "address": "1515 Birch St, Hamletville, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-18T05:15:00Z"
+    },
+    {
+      "id": 19,
+      "name": "Lucas Ward",
+      "email": "lucas.w@example.com",
+      "password": "wardpass901",
+      "phone": "+1-555-901-2345",
+      "address": "1616 Maple St, Boroughburg, USA",
+      "isAdmin": true,
+      "isActive": true,
+      "createTime": "2024-01-19T06:30:00Z"
+    },
+    {
+      "id": 20,
+      "name": "Zoe Foster",
+      "email": "zoe.f@example.com",
+      "password": "fosterpass234",
+      "phone": "+1-555-012-3456",
+      "address": "1717 Cedar St, Citytown, USA",
+      "isAdmin": false,
+      "isActive": true,
+      "createTime": "2024-01-20T07:45:00Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Stainless Steel Cookware Set",
+      "price": 129.99,
+      "stock": 50,
+      "color": "Silver",
+      "size": "Various",
+      "createdTime": "2024-01-01T08:00:00Z",
+      "category": "Kitchen",
+      "description": "High-quality stainless steel cookware set with non-stick coating. Perfect for all your cooking needs."
+    },
+    {
+      "id": 2,
+      "title": "Laptop Stand with Cooling Fan",
+      "price": 34.99,
+      "stock": 30,
+      "color": "Black",
+      "size": "One Size",
+      "createdTime": "2024-01-02T09:15:00Z",
+      "category": "Computer",
+      "description": "Ergonomic laptop stand with adjustable height and built-in cooling fan. Ideal for a comfortable and cool computing experience."
+    },
+    {
+      "id": 3,
+      "title": "Non-Stick Bakeware Set",
+      "price": 49.99,
+      "stock": 40,
+      "color": "Gold",
+      "size": "Various",
+      "createdTime": "2024-01-03T10:30:00Z",
+      "category": "Kitchen",
+      "description": "Complete set of non-stick bakeware for all your baking needs. Easy to clean and durable for long-lasting use."
+    },
+    {
+      "id": 4,
+      "title": "Wireless Gaming Mouse",
+      "price": 69.99,
+      "stock": 20,
+      "color": "RGB",
+      "size": "One Size",
+      "createdTime": "2024-01-04T11:45:00Z",
+      "category": "Computer",
+      "description": "High-performance wireless gaming mouse with customizable RGB lighting. Perfect for gamers seeking precision and style."
+    },
+    {
+      "id": 5,
+      "title": "Cast Iron Dutch Oven",
+      "price": 79.99,
+      "stock": 25,
+      "color": "Red",
+      "size": "6 Quart",
+      "createdTime": "2024-01-05T13:00:00Z",
+      "category": "Kitchen",
+      "description": "Classic cast iron Dutch oven for slow-cooking soups, stews, and roasts. Durable and distributes heat evenly."
+    },
+    {
+      "id": 6,
+      "title": "External Hard Drive - 1TB",
+      "price": 89.99,
+      "stock": 15,
+      "color": "Blue",
+      "size": "1TB",
+      "createdTime": "2024-01-06T14:15:00Z",
+      "category": "Computer",
+      "description": "High-capacity external hard drive for secure and convenient storage of your important files and data."
+    },
+    {
+      "id": 7,
+      "title": "Coffee Maker with Grinder",
+      "price": 129.99,
+      "stock": 35,
+      "color": "Silver/Black",
+      "size": "12 Cup",
+      "createdTime": "2024-01-07T15:30:00Z",
+      "category": "Kitchen",
+      "description": "Automatic coffee maker with built-in grinder for fresh and flavorful coffee every morning. Stylish design for your kitchen."
+    },
+    {
+      "id": 8,
+      "title": "Mechanical Gaming Keyboard",
+      "price": 109.99,
+      "stock": 18,
+      "color": "RGB",
+      "size": "Full Size",
+      "createdTime": "2024-01-08T16:45:00Z",
+      "category": "Computer",
+      "description": "Mechanical gaming keyboard with customizable RGB backlighting. Responsive keys for a satisfying gaming experience."
+    },
+    {
+      "id": 9,
+      "title": "Blender with Glass Jar",
+      "price": 59.99,
+      "stock": 28,
+      "color": "White",
+      "size": "48 oz",
+      "createdTime": "2024-01-09T18:00:00Z",
+      "category": "Kitchen",
+      "description": "Powerful blender with glass jar for smoothies, shakes, and more. Durable and easy to clean."
+    },
+    {
+      "id": 10,
+      "title": "Wireless Noise-Canceling Headphones",
+      "price": 149.99,
+      "stock": 22,
+      "color": "Black",
+      "size": "One Size",
+      "createdTime": "2024-01-10T19:15:00Z",
+      "category": "Computer",
+      "description": "High-quality wireless headphones with noise-canceling technology for an immersive audio experience."
+    },
+    {
+      "id": 11,
+      "title": "Ceramic Knife Set",
+      "price": 44.99,
+      "stock": 32,
+      "color": "Assorted",
+      "size": "Various",
+      "createdTime": "2024-01-11T20:30:00Z",
+      "category": "Kitchen",
+      "description": "Sharp and durable ceramic knife set for precise cutting in the kitchen. Ergonomic handles for comfortable use."
+    },
+    {
+      "id": 12,
+      "title": "Gaming Monitor - 27 inches",
+      "price": 299.99,
+      "stock": 12,
+      "color": "Black",
+      "size": "27 inches",
+      "createdTime": "2024-01-12T21:45:00Z",
+      "category": "Computer",
+      "description": "High-resolution gaming monitor with fast refresh rate for a smooth and immersive gaming experience."
+    },
+    {
+      "id": 13,
+      "title": "Mixer with Attachments",
+      "price": 79.99,
+      "stock": 24,
+      "color": "Silver",
+      "size": "Stand Mixer",
+      "createdTime": "2024-01-13T23:00:00Z",
+      "category": "Kitchen",
+      "description": "Versatile stand mixer with various attachments for baking and cooking. Powerful motor for efficient mixing."
+    },
+    {
+      "id": 14,
+      "title": "Graphics Tablet with Pen",
+      "price": 129.99,
+      "stock": 16,
+      "color": "White",
+      "size": "One Size",
+      "createdTime": "2024-01-14T00:15:00Z",
+      "category": "Computer",
+      "description": "Graphics tablet with pressure-sensitive pen for digital artists and designers. Precise and responsive for creative work."
+    },
+    {
+      "id": 15,
+      "title": "Toaster Oven",
+      "price": 49.99,
+      "stock": 27,
+      "color": "Stainless Steel",
+      "size": "4 Slice",
+      "createdTime": "2024-01-15T01:30:00Z",
+      "category": "Kitchen",
+      "description": "Compact toaster oven with multiple cooking functions. Perfect for toasting, baking, and broiling."
+    },
+    {
+      "id": 16,
+      "title": "Wireless Ergonomic Mouse",
+      "price": 39.99,
+      "stock": 19,
+      "color": "Blue",
+      "size": "One Size",
+      "createdTime": "2024-01-16T02:45:00Z",
+      "category": "Computer",
+      "description": "Ergonomically designed wireless mouse for comfortable use. Suitable for long hours of work or gaming."
+    },
+    {
+      "id": 17,
+      "title": "Air Fryer",
+      "price": 89.99,
+      "stock": 23,
+      "color": "Black",
+      "size": "4 Quart",
+      "createdTime": "2024-01-17T04:00:00Z",
+      "category": "Kitchen",
+      "description": "Efficient air fryer for healthier cooking. Crispy and delicious results without excess oil."
+    },
+    {
+      "id": 18,
+      "title": "Wireless Mechanical Keyboard",
+      "price": 129.99,
+      "stock": 17,
+      "color": "RGB",
+      "size": "Full Size",
+      "createdTime": "2024-01-18T05:15:00Z",
+      "category": "Computer",
+      "description": "Wireless mechanical keyboard with customizable RGB lighting. Responsive switches for a satisfying typing experience."
+    },
+    {
+      "id": 19,
+      "title": "Food Processor",
+      "price": 69.99,
+      "stock": 29,
+      "color": "Red",
+      "size": "8 Cup",
+      "createdTime": "2024-01-19T06:30:00Z",
+      "category": "Kitchen",
+      "description": "Versatile food processor with multiple attachments for chopping, slicing, and shredding. Time-saving and efficient."
+    },
+    {
+      "id": 20,
+      "title": "Gaming Chair",
+      "price": 199.99,
+      "stock": 14,
+      "color": "Black/Red",
+      "size": "One Size",
+      "createdTime": "2024-01-20T07:45:00Z",
+      "category": "Computer",
+      "description": "Comfortable and stylish gaming chair with adjustable features. Perfect for long gaming sessions."
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "Name": "John Doe",
+      "Status": "pending",
+      "Date": "2024-01-01",
+      "Amount": 1200.0
+    },
+    {
+      "id": 2,
+      "Name": "Jane Smith",
+      "Status": "done",
+      "Date": "2024-01-02",
+      "Amount": 9900.0
+    },
+    {
+      "id": 3,
+      "Name": "Robert Johnson",
+      "Status": "pending",
+      "Date": "2024-01-03",
+      "Amount": 4500.0
+    },
+    {
+      "id": 4,
+      "Name": "Patricia Brown",
+      "Status": "pending",
+      "Date": "2024-01-04",
+      "Amount": 7800.0
+    },
+    {
+      "id": 5,
+      "Name": "James Davis",
+      "Status": "cancelled",
+      "Date": "2024-01-05",
+      "Amount": 2300.0
+    },
+    {
+      "id": 6,
+      "Name": "Jennifer Taylor",
+      "Status": "done",
+      "Date": "2024-01-06",
+      "Amount": 8900.0
+    },
+    {
+      "id": 7,
+      "Name": "Michael Wilson",
+      "Status": "pending",
+      "Date": "2024-01-07",
+      "Amount": 5600.0
+    },
+    {
+      "id": 8,
+      "Name": "Linda Moore",
+      "Status": "done",
+      "Date": "2024-01-08",
+      "Amount": 1400.0
+    },
+    {
+      "id": 9,
+      "Name": "William Anderson",
+      "Status": "cancelled",
+      "Date": "2024-01-09",
+      "Amount": 3200.0
+    },
+    {
+      "id": 10,
+      "Name": "Elizabeth Thomas",
+      "Status": "pending",
+      "Date": "2024-01-10",
+      "Amount": 6700.0
+    }
+  ]
+}
