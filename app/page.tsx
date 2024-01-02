@@ -14,6 +14,17 @@ export default function Home() {
           Go to Dashboeard
         </Link>
       </nav>
+      <div className={styles.note}>
+        <p>
+          <span>note:</span> this is just a Front-End Project, so the data
+          isn&apos;t real and you can&apos;t edit or Delete users or product
+          because their is no server in the project.
+        </p>
+        <p>
+          the project is made just to showcase my skills on next.js and other
+          Front-End technology.
+        </p>
+      </div>
       <footer className={styles.footer}>
         <Footer />
       </footer>

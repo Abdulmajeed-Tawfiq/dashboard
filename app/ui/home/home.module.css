@@ -35,6 +35,17 @@
   transition: 0.3s ease-in-out;
 }
 
+.note {
+  text-align: center;
+  line-height: 30px;
+}
+.note > p > span {
+  font-weight: bold;
+  font-size: 20px;
+  color: #86394e;
+  text-decoration: underline;
+}
+
 .footer {
   position: absolute;
   bottom: 5%;
